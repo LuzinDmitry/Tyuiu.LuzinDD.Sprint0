@@ -9,11 +9,11 @@
         public void CheckGetMessageValid()
         {
             // Область создания методов тестирования, методов из библиотеки
-            var name = "Игорь";
+            var name = "Дмитрий";
             var res = DataService.GetMessage(name);
 
             // Вызываем класс Assert и метод AreEqual
-            Assert.AreEqual("Привет, Игорь", res);
+            Assert.AreEqual("Привет, Дмитрий", res);
         }
     }
 }
